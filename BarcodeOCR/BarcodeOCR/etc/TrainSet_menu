@@ -1,0 +1,8 @@
+////////////////////////////////////
+svm train set from camera Option:
+1. positive label1;
+2. positive label2;
+3. negtive;
+4. convert all image to xml;
+5. Return.
+////////////////////////////////////

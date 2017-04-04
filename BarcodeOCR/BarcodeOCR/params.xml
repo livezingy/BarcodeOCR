@@ -1,0 +1,18 @@
+
+<?xml version="1.0" ?>   
+<opencv_storage>  
+ 
+<svmParam>
+   <desType>ALL</desType>
+   <feaType>ALL</feaType>
+</svmParam>
+
+<sampleNum>
+   <numLabel1>100</numLabel1>
+   <numLabel2>100</numLabel2> 
+   <noLabel>200</noLabel>
+</sampleNum>
+
+ </opencv_storage>  
+ 
+ 机器学习界的名言：成功的机器学习应用不是拥有最好的算法，而是拥有最多的数据！

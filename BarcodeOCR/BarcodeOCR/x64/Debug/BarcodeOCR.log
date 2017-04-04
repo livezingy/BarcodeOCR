@@ -1,0 +1,35 @@
+﻿生成启动时间为 2017/4/4 7:36:32。
+     1>项目“D:\freelancer\201702\BarcodeOCR\BarcodeOCR\BarcodeOCR.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Tesseract-Build\include" /I"D:\Tesseract-Build\include\leptonica" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt BarcodeOCR.cpp TrainSVM.cpp
+         BarcodeOCR.cpp
+     1>D:\opencv3x\opencv\build\install\include\opencv2/core/mat.hpp(1959): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3x\opencv\build\install\include\opencv2/imgproc.hpp(618): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\freelancer\201702\barcodeocr\barcodeocr\LabelOCR.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\freelancer\201702\barcodeocr\barcodeocr\LabelOCR.h(16): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\tesseract-build\include\leptonica\environ.h(446): warning C4005: “snprintf”: 宏重定义
+                 d:\tesseract-build\include\tesseract\platform.h(32) : 参见“snprintf”的前一个定义
+     1>d:\tesseract-build\include\leptonica\pix.h(209): warning C4305: “初始化”: 从“double”到“const l_float32”截断
+     1>d:\tesseract-build\include\leptonica\pix.h(211): warning C4305: “初始化”: 从“double”到“const l_float32”截断
+     1>BarcodeOCR.cpp(240): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+     1>BarcodeOCR.cpp(373): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         TrainSVM.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\freelancer\201702\BarcodeOCR\x64\Debug\BarcodeOCR.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Tesseract-Build\lib" /LIBPATH:"D:\Tesseract-Build\lib\x64" liblept171.lib libtesseract304.lib opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_bioinspired310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_bioinspired310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\freelancer\201702\BarcodeOCR\x64\Debug\BarcodeOCR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\freelancer\201702\BarcodeOCR\x64\Debug\BarcodeOCR.lib" /MACHINE:X64 x64\Debug\BarcodeOCR.obj
+         x64\Debug\DetectLabel.obj
+         x64\Debug\helper.obj
+         x64\Debug\LabelOCR.obj
+         x64\Debug\lbp.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TrainSVM.obj
+         x64\Debug\util.obj
+         BarcodeOCR.vcxproj -> D:\freelancer\201702\BarcodeOCR\x64\Debug\BarcodeOCR.exe
+     1>已完成生成项目“D:\freelancer\201702\BarcodeOCR\BarcodeOCR\BarcodeOCR.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.16
