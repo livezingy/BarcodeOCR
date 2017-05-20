@@ -43,7 +43,7 @@ string descriptorType;
 string svmFilename;
 int numLabel1 = 100;
 int numLabel2 = 100;
-int numNoLabels = 100;
+int numNoLabels = 200;
 int noLabel;
 
 DetectLabel detectLabels;
